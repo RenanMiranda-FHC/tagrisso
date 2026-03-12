@@ -1,0 +1,218 @@
+/* Breakpoints (não mobile) */
+
+@media (max-width: 1300px) {
+  :root {
+    --gutter: 96px;
+  }
+
+  .section-title__bar h2 {
+    font-size: 26px;
+  }
+
+  .highlight__headline {
+    font-size: 28px;
+  }
+
+  .highlight__sub {
+    font-size: 18px;
+  }
+
+  .outcomes-grid__label {
+    font-size: 22px;
+  }
+
+  .outcomes-grid__text {
+    font-size: 18px;
+  }
+
+  .footer__qr {
+    max-width: 200px;
+  }
+
+  .footer__sac,
+  .footer__info,
+  .footer__logo {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --gutter: 80px;
+  }
+
+  .section-title__bar {
+    padding: 18px 28px;
+  }
+
+  .section-title__bar h2 {
+    font-size: 24px;
+  }
+
+  .section-title__subtitle {
+    font-size: 18px;
+  }
+
+  .highlight__headline {
+    font-size: 26px;
+  }
+
+  .highlight__sub {
+    font-size: 18px;
+  }
+
+  .outcomes-grid__table {
+    grid-template-columns: 320px 1fr;
+  }
+
+  .outcomes-grid__label {
+    font-size: 20px;
+  }
+
+  .outcomes-grid__text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1100px) {
+  :root {
+    --gutter: 64px;
+  }
+
+  .section-title__bar h2 {
+    font-size: 22px;
+  }
+
+  .section-title__subtitle {
+    font-size: 17px;
+  }
+
+  .highlight__headline {
+    font-size: 24px;
+  }
+
+  .highlight__sub {
+    font-size: 17px;
+  }
+
+  .outcomes-grid__table {
+    grid-template-columns: 300px 1fr;
+  }
+
+  .footer__layout {
+    grid-template-columns: 160px 1fr;
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --gutter: 56px;
+  }
+
+  .section-title__bar h2 {
+    font-size: 21px;
+  }
+
+  .section-title__subtitle {
+    font-size: 16px;
+  }
+
+  .highlight__headline {
+    font-size: 22px;
+  }
+
+  .highlight__sub {
+    font-size: 16px;
+  }
+
+  .outcomes-grid__table {
+    grid-template-columns: 280px 1fr;
+  }
+
+  .outcomes-grid__label {
+    font-size: 19px;
+  }
+
+  .outcomes-grid__text {
+    font-size: 17px;
+  }
+
+  .footer__qr {
+    max-width: 190px;
+  }
+
+  .footer__sac,
+  .footer__info,
+  .footer__logo {
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 950px) {
+  :root {
+    --gutter: 48px;
+  }
+
+  .section-title__bar h2 {
+    font-size: 20px;
+  }
+
+  .section-title__subtitle {
+    font-size: 15px;
+  }
+
+  .outcomes-grid__table {
+    grid-template-columns: 260px 1fr;
+  }
+
+  .outcomes-grid__label {
+    font-size: 18px;
+  }
+
+  .outcomes-grid__text {
+    font-size: 16px;
+  }
+
+  .patients-balance__notes,
+  .conteudo-5__note,
+  .conteudo-6__note,
+  .conteudo-7__note,
+  .conteudo-11__note,
+  .group-1__note,
+  .referencias__text,
+  .referencias__legal {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --gutter: 40px;
+  }
+
+  .section-title__bar {
+    padding: 16px 24px;
+  }
+
+  .section-title__bar h2 {
+    font-size: 19px;
+  }
+
+  .section-title__subtitle {
+    font-size: 14px;
+  }
+
+  .outcomes-grid__table {
+    grid-template-columns: 240px 1fr;
+  }
+
+  .footer__layout {
+    grid-template-columns: 150px 1fr;
+  }
+
+  .footer__sac,
+  .footer__info,
+  .footer__logo {
+    max-width: 210px;
+  }
+}
