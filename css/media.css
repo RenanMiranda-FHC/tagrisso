@@ -231,6 +231,15 @@
     padding-right: 0;
   }
 
+  .section-title--patients {
+    padding-bottom: 12px;
+  }
+
+  .section-title__subtitle--pneumonite {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
   .highlight {
     padding: 0;
   }
@@ -288,6 +297,10 @@
 
   .criteria__footnote {
     text-align: left;
+  }
+
+  .criteria {
+    padding-bottom: 12px;
   }
 
   .patients-balance__notes,
@@ -398,6 +411,10 @@
 
   .info__footnote {
     text-align: left;
+  }
+
+  .info {
+    padding-top: 12px;
   }
 }
 

@@ -177,7 +177,7 @@ main {
 }
 
 .info {
-  padding: 28px 0 64px;
+  padding: 28px 0 12px;
 }
 
 .info__box {
@@ -330,12 +330,9 @@ main {
   line-height: 1.35;
   color: #4b4b4b;
   text-align: center;
-  padding: 0 70px;
+  padding: 0 40px;
 }
 
-.conteudo-11__note-break {
-  display: block;
-}
 
 .referencias {
   padding: 20px 0 40px;
@@ -598,9 +595,6 @@ main {
   text-align: center;
 }
 
-.conteudo-5__note-break {
-  display: block;
-}
 
 .outcomes-grid {
   padding: 18px 0 40px;
