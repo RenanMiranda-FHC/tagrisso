@@ -223,7 +223,20 @@
   }
 
   .hero {
-    padding: 0 0 16px;
+    padding: 0;
+  }
+
+  .section-title .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .highlight {
+    padding: 0;
+  }
+
+  .highlight__footnote {
+    display: none;
   }
 
   .section-title__bar {
@@ -255,9 +268,26 @@
     font-size: 16px;
   }
 
+  .outcomes-grid__source {
+    text-align: left;
+  }
+
+  .conteudo-5__note {
+    text-align: left;
+  }
+
+  .conteudo-6__note {
+    text-align: left;
+  }
+
+
   .criteria__box {
     font-size: 16px;
     padding: 18px 20px;
+  }
+
+  .criteria__footnote {
+    text-align: left;
   }
 
   .patients-balance__notes,
@@ -272,27 +302,102 @@
   }
 
   .footer__layout {
-    grid-template-columns: 1fr;
+    display: none;
   }
 
-  .footer__qr {
-    max-width: 200px;
-    margin: 0 auto;
+  .footer__mobile {
+    display: block;
   }
 
-  .footer__text {
+  .conteudo-5__image--desktop {
+    display: none;
+  }
+
+  .conteudo-5__image--mobile {
+    display: block;
+  }
+
+  .conteudo-6__image--desktop {
+    display: none;
+  }
+
+  .conteudo-6__image--mobile {
+    display: block;
+  }
+
+  .patients-balance__image--desktop {
+    display: none;
+  }
+
+  .patients-balance__image--mobile {
+    display: block;
+  }
+
+  .conteudo-7__image--desktop {
+    display: none;
+  }
+
+  .conteudo-7__image--mobile {
+    display: block;
+  }
+
+  .conteudo-8__image--desktop {
+    display: none;
+  }
+
+  .conteudo-8__image--mobile {
+    display: block;
+  }
+
+  .conteudo-9__image--desktop {
+    display: none;
+  }
+
+  .conteudo-9__image--mobile {
+    display: block;
+  }
+
+  .group-1__image--desktop {
+    display: none;
+  }
+
+  .group-1__image--mobile {
+    display: block;
+  }
+
+  .conteudo-11__image--desktop {
+    display: none;
+  }
+
+  .conteudo-11__image--mobile {
+    display: block;
+  }
+
+  .referencias__image--desktop {
+    display: none;
+  }
+
+  .referencias__image--mobile {
+    display: block;
+    margin-right: -18px;
+    width: calc(100% + 18px);
+  }
+
+  .group-1__note {
     text-align: center;
   }
 
-  .footer__icons {
+  .info__box {
     grid-template-columns: 1fr;
-    justify-items: center;
   }
 
-  .footer__sac,
-  .footer__info,
-  .footer__logo {
-    max-width: 240px;
+  .info__col + .info__col {
+    border-left: 0;
+    border-top: 2px solid #ffffff;
+  }
+
+  .info__footnote {
+    text-align: left;
   }
 }
 

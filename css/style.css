@@ -37,6 +37,11 @@ img {
   padding: 0 0 24px;
 }
 
+.hero .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .hero__image {
   width: 100%;
   height: auto;
@@ -53,13 +58,15 @@ main {
 
 .highlight__banner {
   background: transparent;
-  padding: 22px 64px;
+  padding: 22px 0;
   position: relative;
   overflow: hidden;
   min-height: 130px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: calc(var(--gutter) * -1);
+  margin-right: calc(var(--gutter) * -1);
 }
 
 .highlight__banner::after {
@@ -76,7 +83,7 @@ main {
 
 .highlight__headline {
   font-family: "Open Sans", "Segoe UI", sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.18;
   font-weight: 700;
   color: var(--accent);
@@ -86,6 +93,7 @@ main {
   position: relative;
   z-index: 1;
   letter-spacing: 0.2px;
+  padding: 0 30px;
 }
 
 .highlight--s2 {
@@ -116,6 +124,8 @@ main {
   max-width: 1160px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .highlight__image {
@@ -277,6 +287,10 @@ main {
   display: block;
 }
 
+.group-1__image--mobile {
+  display: none;
+}
+
 .group-1__source {
   margin-top: 10px;
   font-family: "Open Sans", "Segoe UI", sans-serif;
@@ -305,6 +319,10 @@ main {
   display: block;
 }
 
+.conteudo-11__image--mobile {
+  display: none;
+}
+
 .conteudo-11__note {
   margin-top: 28px;
   font-family: "Open Sans", "Segoe UI", sans-serif;
@@ -327,6 +345,15 @@ main {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.referencias__image--mobile {
+  display: none;
+}
+
+.referencias__image--desktop {
+  margin-right: 0;
+  width: 100%;
 }
 
 .referencias__text {
@@ -372,6 +399,12 @@ main {
 .footer__copy {
   font-size: 16px;
   line-height: 1.35;
+}
+
+.footer__mobile {
+  display: none;
+  width: 100%;
+  height: auto;
 }
 
 .footer__layout {
@@ -422,6 +455,10 @@ main {
   display: block;
 }
 
+.conteudo-6__image--mobile {
+  display: none;
+}
+
 .conteudo-6__note {
   margin-top: 18px;
   font-family: "Open Sans", "Segoe UI", sans-serif;
@@ -439,6 +476,10 @@ main {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.conteudo-7__image--mobile {
+  display: none;
 }
 
 .conteudo-7__note {
@@ -460,6 +501,10 @@ main {
   display: block;
 }
 
+.conteudo-8__image--mobile {
+  display: none;
+}
+
 .conteudo-9 {
   padding: 12px 0 80px;
 }
@@ -468,6 +513,10 @@ main {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.conteudo-9__image--mobile {
+  display: none;
 }
 
 .section-title--patients {
@@ -504,6 +553,10 @@ main {
   display: block;
 }
 
+.patients-balance__image--mobile {
+  display: none;
+}
+
 .patients-balance__notes {
   margin-top: 18px;
   font-family: "Open Sans", "Segoe UI", sans-serif;
@@ -530,6 +583,10 @@ main {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.conteudo-5__image--mobile {
+  display: none;
 }
 
 .conteudo-5__note {
